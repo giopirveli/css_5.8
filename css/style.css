@@ -1,0 +1,379 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.mainDiv{
+    display: flex;
+}
+a{
+    text-decoration: none;
+}
+.asideBar{
+    border-right: 1px solid #434343;
+    background-color: #222224;
+padding: 16px;
+display: flex;
+flex-direction: column;
+gap: 32px;
+max-width: 230px;
+width: 100%;
+}
+.asideBarNav{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.asideBar span{
+    color: #989898;
+font-size: 14px;
+font-weight: 500;
+line-height: 18px; 
+margin-bottom: 5px;
+}
+.companyNavLInksBox{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #434343;
+}
+.companyNavLInksBox a{
+    display: flex;
+    align-items: center;
+    padding: 8px 16px;
+    gap: 8px;
+    color: #FFF;
+    font-size: 16px;
+line-height: 24px;
+}
+.companyNavLInksBox  a:nth-child(2){
+    border-radius: 12px;
+background: #FAE101;
+color: #000;
+}
+.accountNavLInksBox{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #434343;
+}
+.accountNavLInksBox a{
+    display: flex;
+    align-items: center;
+    padding: 8px 16px;
+    gap: 8px;
+    color: #FFF;
+    font-size: 16px;
+line-height: 24px;
+}
+.allAnotherSemanticTags{
+    max-width: 1680px;
+    width: 100%;
+    background: #141414;
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    display: flex;
+    border-bottom: 1px solid #434343;
+    justify-content: end;
+    padding: 16px;
+}
+.SearchForm{
+}
+.profileBox{
+display: flex;
+align-items: center;
+color: #FFF;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px; 
+gap:  12px;
+}
+.headerMainConteiner{
+    max-width: 850px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 200px;
+}
+.SearchForm{
+    display: flex;
+    max-width:485px ;
+    width: 100%;
+}
+.SearchForm input{
+    border-radius: 8px 0px 0px 8px;
+border-top: 1px solid #FAE101;
+border-bottom: 1px solid #FAE101;
+border-left: 1px solid #FAE101;
+background-color: transparent;
+padding: 8px 10px;
+border-right: none;
+width: 100%;
+}
+.SearchForm button{
+    border-radius: 0px 8px 8px 0px;
+background: #FAE101;
+padding: 8px 12px;
+border: none;
+}
+.SearchForm input::placeholder{
+    color: #FAE101;
+font-size: 14px;
+line-height: 24px; 
+}
+.contentCenter{
+    display: flex;
+    justify-content: center;
+}
+.contentMaxSize{
+    width: 100%;
+    max-width: 1088px;   
+}
+
+.entranceBox{
+    border-radius: 16px;
+background: #222224;
+padding: 20px 40px;
+}
+.entranceBoxTextPart h1{
+    color: #FAE101;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.entranceBoxTextPart h2{
+    color: #FFF;
+font-family: Inter;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+width: 80%;
+}
+.entranceBoxTextPart p{
+    color: #B7B7B7;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;  
+    width: 90%;
+}
+.entranceBoxTextPart p span{
+    color: #B7B7B7;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 600;
+    line-height: normal;
+}
+.entranceBoxTextPart{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    max-width: 350px;
+    width: 100%;
+}
+.entranceBoxMaxSize{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 880px;
+}
+.entranceBoxMaxSize img{
+    max-width: 260px;
+    width: 100%;
+}
+.chouceCategoryConteiner{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.categoryBox{
+padding: 8px 16px 8px 12px;
+border-radius: 24px;
+background: #222224;
+display: flex;
+gap: 12px;
+align-items: center;
+}
+
+.categoryBox span{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; 
+}
+.chouceCategoryConteiner a:first-child :first-child{
+background: #FAE101;
+border-radius: 24px;
+border: none;
+}
+.chouceCategoryConteiner a:first-child :first-child span{
+    color: #000;
+}
+.FlashSaleConteiner{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.FlashSaleConteiner >span{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; 
+}
+.saleNowBox{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+.saleNowBox >span{
+    color: #FAE101;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; 
+}
+.TitleBoxTimerBox{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+.TitleBoxTimerBox >span{
+    color: #797979;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; 
+}
+.TimerBoxRealTime{
+    display: flex;
+    gap: 4px;
+    align-items: center;
+}
+.TimerBoxRealTime span:nth-child(even){
+color: #D9D9D9;
+font-size: 25px;
+}
+.TimerBoxRealTime span:nth-child(odd){
+    border-radius: 4px;
+    background: #FAE101;
+    display: flex;
+padding: 10px;
+justify-content: center;
+align-items: center;
+}
+.saleCardsConteiner{
+    display: flex;
+    gap: 16px;
+}
+.saleCardBox{
+    border-radius: 12px;
+border: 1px solid #FAE101;
+background: transparent;
+display: flex;
+gap: 12px;
+padding: 16px;
+min-height: 260px;
+flex: 1;
+}
+.saleCardBox >img{
+    align-self: start;
+}
+.saleCardBoxTextpartWithoutBtn{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.saleCardBoxTextpartWithoutBtn >img{
+    width: fit-content;
+}
+.saleCardBoxTextpartWithoutBtn span{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; 
+}
+.saleCardBoxTextpartWithoutBtn p{
+    color: #797979;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px; 
+    width: 80%;
+}
+.CardPriceBox :first-child{
+    color: #FAE101;
+font-size: 16px;
+line-height: 18px; 
+}
+.CardPriceBox :last-child{
+    color: #797979;
+    font-size: 14px;
+    line-height: 18px; 
+}
+.saleCardBoxTextpart{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.saleCardBoxTextpart button{
+    border-radius: 4px;
+    background: #FAE101;
+padding: 10px;
+border: none;
+color: #000;
+font-size: 16px;
+font-weight: 600;
+line-height: 24px; 
+}
+.OrdinaryCardSaleBox{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    border-radius: 12px;
+    border: 1px solid #FAE101;
+    background: transparent;
+    padding: 16px;
+    flex: 1;
+}
+.saleCardBoxTextpart{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.saleCardBoxTextpart :nth-child(1){
+width: fit-content;
+}
+.saleCardBoxTextpart :nth-child(2){
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px
+}
+.saleCardBoxTextpart :nth-child(3){
+    color: #797979;
+    font-size: 14px;
+    line-height: 18px; 
+}
